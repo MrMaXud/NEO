@@ -1,0 +1,10 @@
+<link href="notification.css" rel="stylesheet"
+<script src="notification.js"></script>
+const popup = Notification({
+  position: 'top-left',
+  duration: 7000
+});
+popup.error({
+  title: 'Error',
+  message: 'Error message'
+});
