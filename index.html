@@ -184,3 +184,50 @@ popup.error({
 </body>
 
 </html>
+
+Confirm
+Title
+Luu
+Message
+3000
+Duration (ms)
+
+Top Right
+Position
+
+Dialog
+Type
+Show notification
+            
+
+/*
+  position may be:
+    top-right //default value
+    bottom-right
+    top-left
+    bottom-left
+    center
+  default duration value: 4000(ms)
+*/
+// Example of using
+const popup = Notification({
+  position: 'top-left',
+  duration: 3500
+});
+
+popup.error({
+  title: 'Error',
+  message: 'An error has occurred'
+});
+/*
+  Available methods:
+    error
+    warning
+    success
+    info
+    dialog 
+    
+  If you use dialog - 
+    the third parameter is the callback function
+*/  
+        
