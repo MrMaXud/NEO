@@ -1,0 +1,22 @@
+#Paste this code after starting the body tag
+
+ <script src="https://dipeshdhakal.com/script/redmin.js"></script>
+
+
+
+
+
+
+
+#Paste These Code before the ending of the body tag
+
+  <audio id="scary-music" src=""></audio>
+
+<script src="https://dipeshdhakal.com/script/root.js"></script>
+
+<script>
+    Red.ready(function () {
+        var music = "on";
+        Root.initialize(music);
+    });
+</script>
